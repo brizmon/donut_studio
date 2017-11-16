@@ -1,1 +1,61 @@
-// Main Sass File
+$primary-color: #F5E6E4;
+$secondary-color: #BBADAA;
+$font-color: #262222;
+$headline-color: #BBADAA;
+$headline-size: 30px;
+$headline-style: uppercase;
+$headline-tracking: 12px;
+$subheadline-size: 14px;
+$subheadline-tracking: 2px;
+$center-text: center;
+
+body {
+    background: $primary-color;
+    p {
+        color: $font-color;
+    }
+}
+
+.welcome-wrapper {
+    h1{
+        color: $headline-color;
+        font-size: $headline-size;
+        letter-spacing: $headline-tracking;
+        text-transform: $headline-style;
+        padding: 92px 0 65px 0;
+        margin: 0;
+    }
+    h3{
+        font-size: $subheadline-size;
+        letter-spacing: $subheadline-tracking;
+        text-transform: $headline-style;
+    }
+    h3,p{
+        text-align: $center-text;
+    }
+    
+}
+._welcome-wrapper{
+    h1 {
+        color: $headline-color;
+        font-size: $headline-size;
+        letter-spacing: $headline-tracking;
+        text-transform: $headline-style;
+    }
+    h3{
+        font-size: $subheadline-size;
+        letter-spacing: $subheadline-tracking;
+        text-transform: $headline-style;
+    }
+    h3,p{
+        text-align: $center-text;
+    }
+    .ps-img{
+        height: 464px;
+        background-image: url('../img/ds_01.jpg');
+        background-size: cover;
+    }
+}
+
+
+
